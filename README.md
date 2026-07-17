@@ -48,14 +48,18 @@ delay to every call without breaking functionality. If so, disable it once in th
 
 ## Installing this plugin
 
-Local/dev use, without a remote repo yet:
+From a Claude Code session:
 
-```bash
-claude --plugin-dir /Users/thomas/Projects/src/github/rubymine-mcp-plugin
+```
+/plugin marketplace add tleish/rubymine-mcp-plugin
+/plugin install rubymine-mcp@rubymine-mcp
 ```
 
-Once pushed to a git remote, others install it the standard Claude Code plugin way (marketplace
-add + `/plugin install`) — see the [plugins docs](https://code.claude.com/docs/en/plugins.md).
+For local/dev use instead, without going through the marketplace:
+
+```bash
+claude --plugin-dir /path/to/rubymine-mcp-plugin
+```
 
 ## Full tool accounting (43 tools)
 

@@ -1,0 +1,10 @@
+{
+  "name": "rubymine-mcp",
+  "owner": { "name": "tleish" },
+  "plugins": [
+    {
+      "name": "rubymine-mcp",
+      "source": "./"
+    }
+  ]
+}
